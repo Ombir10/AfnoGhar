@@ -1,0 +1,107 @@
+
+.header{
+  position: sticky;
+  top:0px;
+}
+.taskbar {
+  background-color: white;
+}
+
+img {
+  display: inline-block;
+  width:300px;
+  height:190px;
+  position:relative;
+  top:10px;
+}
+
+.menu-container {
+  margin: 0px 0px 0px 300px;
+}
+.User{
+  font: 25px black;
+  position: absolute;
+  top: 20px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  text-decoration:none;
+  color:black;
+}
+
+.User:hover{
+  font: 27px grey;
+}
+
+.Room{
+  margin: 30px 200px;
+  font: 25px black;
+  position: absolute;
+  top: 20px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.Room:hover{
+  font: 27px grey;
+}
+
+.Home{
+	margin: 30px -120px;
+  font: 25px black;
+  position: absolute;
+  top: 20px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  text-decoration:none;
+  color:black;
+}
+
+.Home:hover{
+  font: 27px grey;
+}
+
+.searchbox {
+  margin: 0px 400px 0px 500px;
+  padding: 20px 100px 20px 20px;
+  position: relative;
+  top: 0px;
+  bottom: 30px;
+}
+
+.button {
+  border-right: 1px solid;
+  padding-right:50px;
+  padding-left:50px;
+}
+
+hr {
+  position: relative;
+  top: 0px;
+}
+
+input[type=text]{
+  border-style: outset;
+  padding: 10px 100px 10px 10px;
+  border-radius: 20px;
+}
+
+
+
+.add{
+  border: none;
+  box-shadow: 4px 4px;
+  padding: 10px;
+  color: black;
+  position: relative;
+  top: 0px;
+}
+
+a{
+ position:relative;
+ top : 10px;
+ margin: 30px 30px;
+ text-decoration: none;
+}

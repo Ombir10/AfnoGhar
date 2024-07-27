@@ -1,0 +1,83 @@
+@charset "ISO-8859-1";
+
+.header{
+  position: sticky;
+  top:0px;
+}
+.taskbar {
+  background-color: white;
+}
+
+img {
+  display: inline-block;
+  width:300px;
+  height:190px;
+  position:relative;
+  top:10px;
+}
+
+.menu-container {
+  margin: 0px 0px 0px 300px;
+}
+
+a{
+	font: 20px black;
+  position: absolute;
+  top: 20px;
+  background-color: white;
+  cursor: pointer;
+  color:black;
+}
+.Home{
+	margin:0px 0px 0px 300px;
+}
+.Signup{
+  margin: 0px 0px 0px 300px;
+}
+
+a:hover{
+  font: 21px grey;
+}
+
+.Login{
+  margin: 0px 0px 0px 400px;
+  
+}
+
+
+.Room{
+  margin: 0px 0px 0px 470px;
+}
+
+.Profile{
+	margin: 0px 0px 0px 530px;
+}
+
+
+.searchbox {
+  margin: 0px 300px 0px 400px;
+  border: 1px solid grey;
+  border-style: outset;
+  border-color: grey;
+  border-radius: 40px;
+  padding: 20px 200px 20px 20px;
+  position: relative;
+  top: 0px;
+  bottom: 30px;
+}
+
+.button {
+  border-right: 1px solid;
+  padding-right:50px;
+  padding-left:50px;
+}
+
+hr {
+  position: relative;
+  top: 50px;
+}
+
+a{
+	text-decoration:none;
+}
+

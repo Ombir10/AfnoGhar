@@ -1,0 +1,102 @@
+	body {
+	  margin: 0;
+	  font-family: Arial, sans-serif;
+	}
+	
+	.container {
+	  margin: 100px 220px;
+	}
+	
+	.box {
+	  border: 1px solid;
+	  border-radius: 20px;
+	  padding: 20px;
+	  
+	}
+	
+	
+	img{
+	  margin: 0px 200px 0px 220px;
+	  border: 1px solid;
+	  border-radius: 200px;
+	  background-color:white;
+	  position:  relative;
+	  top:150px;
+	  display: block;
+	  padding: 0px 
+	}
+	.h2{
+	  font-family: Arial, Helvetica, sans-serif;
+	}
+	
+	.content {
+	  padding-top:20px;
+	  padding-left: 20px;
+	  font-size:30px;
+	}
+	
+	.form-group {
+	  padding: 20px;
+	  margin: 140px 0px -20px 0px;
+	}
+	
+	label {
+  display: inline-block;
+  width: 100px; /* Adjust width as needed */
+  margin-right: 1px;
+}
+	
+	
+	input[type=text], input[type=date] {
+	  width: 38%;
+	  border: 1px solid;
+	  border-radius: 5px;
+	  margin-top: 10px;
+	  box-sizing: border-box;
+	  padding: 12px;
+	  display: inline-block;
+	  margin-right: 10px;
+	}
+	
+	.form-group:after {
+	  content: "";
+	  display: table;
+	  clear: both;
+	}
+	
+	button {
+	  width: 40%;
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 14px 20px;
+	  margin: 20px 0;
+	  border: none;
+	  border-radius: 4px;
+	  cursor: pointer;
+	}
+.Back{
+  display: inline-block;
+  width: 38%;
+  background-color: #4CAF50;
+  color: white; 
+  padding: 14px 20px; 
+  margin: 20px 10px 20px 50px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+}
+
+button[type=submit]{
+  margin:  20px 0 0px 90px;
+}
+
+a{
+  margin: 0px 0px 0px 420px;
+    text-decoration : none;
+}
+
+a:hover{
+  text-decoration : underline;
+}
